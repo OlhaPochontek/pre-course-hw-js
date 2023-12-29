@@ -2,7 +2,7 @@ let rule = "Еще не родился тот человек, который, п
 
 switch(true) {
     case rule.length < 25:
-        console.log('Все таки ')
+        console.log('Все таки не правил без исключения')
         break
     case rule.length > 25:
         console.log('у меня 100 пудов все получится')
@@ -11,3 +11,6 @@ switch(true) {
         console.log('50 на 50')
         break
 }
+
+
+console.log('Все таки не правил без исключения')
